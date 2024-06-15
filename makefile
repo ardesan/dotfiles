@@ -20,6 +20,7 @@ vscode:
 	code --install-extension ms-python.python --force
 	code --install-extension donjayamanne.python-environment-manager
 	code --install-extension hashicorp.terraform --force
+	code --install-extension alfredbirk.go-to-next-change --force
 
 update:
 	cp .bashrc ~/.bashrc
