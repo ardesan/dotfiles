@@ -13,12 +13,12 @@ build:
 
 vscode:
 	code --install-extension catppuccin.catppuccin-vsc --force
-	code --install-extension catppuccin.catppuccin-vsc-icons
+	code --install-extension catppuccin.catppuccin-vsc-icons --force
 	code --install-extension eamodio.gitlens --force
 	code --install-extension esbenp.prettier-vscode --force
 	code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools --force
 	code --install-extension ms-python.python --force
-	code --install-extension donjayamanne.python-environment-manager
+	code --install-extension donjayamanne.python-environment-manager --force
 	code --install-extension hashicorp.terraform --force
 	code --install-extension alfredbirk.go-to-next-change --force
 
