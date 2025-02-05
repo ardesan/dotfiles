@@ -18,6 +18,7 @@ vscode:
 	code --install-extension esbenp.prettier-vscode --force
 	code --install-extension ms-python.python --force
 	code --install-extension alfredbirk.go-to-next-change --force
+	code --install-extension GitHub.copilot --force
 
 update:
 	cp .bashrc ~/.bashrc
