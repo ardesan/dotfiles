@@ -75,6 +75,3 @@ kctx <context-name>
 | Key          | Command   |
 |--------------|-----------|
 | k            | kubectl   | 
-
-## Font installation
-only manually yet
