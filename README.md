@@ -8,7 +8,7 @@ It contains:
 - [docker-zsh-completion](https://github.com/greymd/docker-zsh-completion)
 - [kubectl zsh auto-completion](https://kubernetes.io/docs/tasks/tools/included/optional-kubectl-configs-zsh/)
 - [zsh autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-- [zsh-syntax-highlighting](zsh-users/zsh-syntax-highlighting)
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 - [keychain, for managing SSH Keys](https://linux.die.net/man/1/keychain)
 - [bat, a cat clone with wings](https://github.com/sharkdp/bat)
 - [fzf, a command-line fuzzy finder](https://github.com/junegunn/fzf)
@@ -21,19 +21,19 @@ It contains:
 
 Install all tools and config files
 
-```
+```bash
 make build
 ```
 
 Update the config files
 
-```
+```bash
 make update
 ```
 
 Install and update vscode extensions
 
-```
+```bash
 make vscode
 ```
 
@@ -41,32 +41,35 @@ make vscode
 
 Delete all local git branches of current repository
 
-```
+```bash
 gdb
 ```
 
 Enter fzf preview mode with bat
 
-```
+```bash
 fzfp
 ```
 
-set and unset proxy variables
-```
+Set and unset proxy variables
+
+```bash
 setproxy
 unsetproxy
 ```
 
-List all images of all kubernetes deployments and daemonsets of the given namespace
+List all images of all Kubernetes deployments and daemonsets of the given namespace
 
-```
+```bash
 # list images of the default namespace
 kimg
 # list images of the kube-system namespace
 kimg kube-system
 ```
-Switch kubernetes config context
-```
+
+Switch Kubernetes config context
+
+```bash
 kctx <context-name>
 ```
 
@@ -75,3 +78,8 @@ kctx <context-name>
 | Key          | Command   |
 |--------------|-----------|
 | k            | kubectl   | 
+
+# Additional Notes
+
+- I use the [Material High Contrast Ocean Theme and Icons](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
+- I use [JetBrains Mono Font](https://www.jetbrains.com/lp/mono/)
