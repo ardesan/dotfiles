@@ -81,5 +81,4 @@ kctx <context-name>
 
 # Additional Notes
 
-- I use the [Material High Contrast Ocean Theme and Icons](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
 - I use [JetBrains Mono Font](https://www.jetbrains.com/lp/mono/)

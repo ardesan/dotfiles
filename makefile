@@ -12,8 +12,8 @@ build:
 	~/.fzf/install
 
 vscode:
-	code --install-extension Equinusocio.vsc-material-theme --force
-	code --install-extension equinusocio.vsc-material-theme-icons --force
+	code --install-extension catppuccin.catppuccin-vsc --force
+ 	code --install-extension catppuccin.catppuccin-vsc-icons --force
 	code --install-extension eamodio.gitlens --force
 	code --install-extension esbenp.prettier-vscode --force
 	code --install-extension ms-python.python --force
